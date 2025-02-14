@@ -1,34 +1,32 @@
 # Tic Tac Toe Game
 
-A simple Tic Tac Toe game built using HTML, CSS, and JavaScript, where you can play against the computer.
+A simple Tic Tac Toe game built using HTML, CSS, and JavaScript, where two players can play against each other.
 
 ## Features
-- Play against an AI opponent.
+- Two-player mode (1 vs 1).
 - Interactive and user-friendly UI.
 - Simple yet responsive design.
-- Randomized AI moves to provide a challenging experience.
 
 ## Technologies Used
 - **HTML**: Structure of the game.
 - **CSS**: Styling and layout.
-- **JavaScript**: Game logic and AI implementation.
+- **JavaScript**: Game logic implementation.
 
 ## How to Play
 1. Open the `index.html` file in your browser.
 2. The game board consists of a 3x3 grid.
-3. You play as "X", and the computer plays as "O".
-4. Click on an empty cell to make your move.
-5. The AI will respond with its move.
-6. The first player to get three marks in a row (horizontally, vertically, or diagonally) wins the game.
-7. If all cells are filled and no player has won, the game ends in a draw.
-8. Click the "Restart" button to play again.
+3. Player 1 plays as "X", and Player 2 plays as "O".
+4. Players take turns clicking on an empty cell to make their move.
+5. The first player to get three marks in a row (horizontally, vertically, or diagonally) wins the game.
+6. If all cells are filled and no player has won, the game ends in a draw.
+7. Click the "Restart" button to play again.
 
 ## Project Structure
 ```
 / Tic-Tac-Toe
 ├── index.html  # Main HTML file
 ├── style.css   # Stylesheet for UI design
-├── script.js   # JavaScript file containing game logic
+├── first.js   # JavaScript file containing game logic
 └── README.md   # Project documentation
 ```
 
@@ -43,9 +41,11 @@ A simple Tic Tac Toe game built using HTML, CSS, and JavaScript, where you can p
    ```
 3. Open `index.html` in your browser.
 
+## Live Demo
+https://mushtaqs-tic-tac-toe.netlify.app/
+
 ## Future Enhancements
-- Improve AI difficulty levels.
-- Add a two-player mode.
+- Add an AI opponent for single-player mode.
 - Implement animations for a better user experience.
 
 ## License
