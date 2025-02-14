@@ -21,6 +21,10 @@ A simple Tic Tac Toe game built using HTML, CSS, and JavaScript, where two playe
 6. If all cells are filled and no player has won, the game ends in a draw.
 7. Click the "Restart" button to play again.
 
+![image](https://github.com/user-attachments/assets/0cfb2b29-cc23-4a0a-8bbf-fbe6fc5df3ff)
+
+
+
 ## Project Structure
 ```
 / Tic-Tac-Toe
